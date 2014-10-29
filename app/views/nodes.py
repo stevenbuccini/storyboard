@@ -12,6 +12,6 @@ def create_node():
 def delete_node(uuid):
     pass
 
-@app.route('node/<uuid>', methods=['PUT, PATCH'])
+@app.route('/node/<uuid>', methods=['PUT, PATCH'])
 def update_node(uuid):
     pass
